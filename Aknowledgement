@@ -5,6 +5,6 @@ His contribution has been invaluable, and our work builds upon his original proj
 Regarding my contribution to the project, here is how I proceeded in developing the pipeline:
 
 Evaluated which of the proposed CNN model performs better.
-Conducted research over the Internet about other alternatives.
+Conducted research over the Internet about other Keras CNN alternatives (the selected ones was NASNetLarge).
 Performed model comparison.
 Wrote the documentation.
