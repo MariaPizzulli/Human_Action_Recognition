@@ -38,7 +38,7 @@ seaborn;
 keras; 
 tensorflow; 
 matplotlib;
-sklearn.metrics;
+sklearn;
 
 
 
