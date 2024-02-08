@@ -33,9 +33,12 @@ The project upload a folder containing the four files into the Colab environment
 
 numpy; 
 pandas; 
+opendatasets;
 seaborn; 
-plotly.express; 
-matplotlib.pyplot; 
+keras; 
+tensorflow; 
+matplotlib;
+sklearn.metrics;
 
 
 
