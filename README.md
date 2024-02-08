@@ -40,7 +40,9 @@ tensorflow;
 matplotlib;
 sklearn;
 
+• _Credentials_:
 
+Kaggle username and secret key for downloading dataset
 
 ## Useful links
 
