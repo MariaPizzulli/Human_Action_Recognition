@@ -27,6 +27,16 @@ Before running the code, it is advisable to change the Runtime typology from CPU
 When running the project on Google Colab, ensure you have a folder containing the files descripted above.
 The project upload a folder containing the four files into the Colab environment at the beginning of the notebook, in the code, it is called 'human-action-recognition-har-dataset'. This data is essential for train and test the model.
 
+## Requirements
+
+• _Python Libraries_:
+
+numpy; 
+pandas; 
+seaborn; 
+plotly.express; 
+matplotlib.pyplot; 
+
 
 
 ## Useful links
