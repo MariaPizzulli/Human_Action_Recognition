@@ -26,3 +26,5 @@ Additional information:
 • How to import Data from Kaggle: https://www.geeksforgeeks.org/how-to-import-kaggle-datasets-directly-into-google-colab/
 
 • Keras CNN model list: https://keras.io/api/applications/
+
+• How to save model weights, load model Weights and compile it: https://machinelearningmastery.com/save-load-keras-deep-learning-models/
