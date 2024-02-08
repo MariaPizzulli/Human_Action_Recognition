@@ -21,6 +21,14 @@ Additional information:
 
 • Training_set.csv - this file contains the mapping between image name and label
 
+## Running the Project on Colab
+Before running the code, it is advisable to change the Runtime typology from CPU to T4 GPU in order to speed up training phase of CNN.
+
+When running the project on Google Colab, ensure you have a folder containing the files descripted above.
+The project upload a folder containing the four files into the Colab environment at the beginning of the notebook, in the code, it is called 'human-action-recognition-har-dataset'. This data is essential for train and test the model.
+
+
+
 ## Useful links
 
 • How to import Data from Kaggle: https://www.geeksforgeeks.org/how-to-import-kaggle-datasets-directly-into-google-colab/
