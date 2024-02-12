@@ -26,6 +26,7 @@ Before running the code, it is advisable to change the Runtime typology from CPU
 
 When running the project on Google Colab, ensure you have a folder containing the files descripted above.
 The project upload a folder containing the four files into the Colab environment at the beginning of the notebook, in the code, it is called 'human-action-recognition-har-dataset'. This data is essential for train and test the model.
+
 If enabled the Google Drive connection it is possible to save the model to on Drive, alternatively, if present, it is possible to load the pretrained model from Drive.
 
 ## Requirements
@@ -52,3 +53,5 @@ Kaggle username and secret key for downloading dataset
 • Keras CNN model list: https://keras.io/api/applications/
 
 • How to save model weights, load model Weights and compile it: https://machinelearningmastery.com/save-load-keras-deep-learning-models/
+
+• Adam optimizer parameter: https://keras.io/api/optimizers/adam/
