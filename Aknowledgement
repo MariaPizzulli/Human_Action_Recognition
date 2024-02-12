@@ -4,7 +4,7 @@ His contribution has been invaluable, and our work builds upon his original proj
 
 Regarding my contribution to the project, here is how I proceeded in developing the pipeline:
 
-Evaluated which of the proposed CNN model performs better.
-Conducted research over the Internet about other Keras CNN alternatives (the selected ones was NASNetLarge).
-Performed model comparison.
+Evaluated which of the proposed CNN model performed better.
+Conducted research over the Internet, and asked to ChatGPT how to improve the model performance.
+Performed comparison of different model configurations.
 Wrote the documentation.
