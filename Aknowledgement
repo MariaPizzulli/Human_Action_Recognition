@@ -7,4 +7,5 @@ Regarding my contribution to the project, here is how I proceeded in developing 
 Evaluated which of the proposed CNN model performed better.
 Conducted research over the Internet, and asked to ChatGPT how to improve the model performance.
 Performed comparison of different model configurations.
+Introduced the possibility to save/load the trained model.
 Wrote the documentation.
