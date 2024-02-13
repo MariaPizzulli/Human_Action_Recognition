@@ -1,33 +1,25 @@
 # Human_Action_Recognition
 ## Overview
-Human Action Recognition (HAR) aims to understand human behavior and assign a label to each action. It has a wide range of applications, and therefore has been attracting increasing attention in the field of computer vision.
-The request on Kaggle is to to build an Image Classification Model using CNN that classifies to which class of activity a human is performing.
+Human Action Recognition (HAR) aims to understand human action and assign a label to each one of them. It has a wide range of applications, and therefore is attracting increasing attention in the field of computer vision.
+This project builds an image classification model using CNN.
 
 Additional information:
 
-• The dataset features 15 different classes of Human Activities.
+• The dataset contains 15 different classes of Human Activities.
 
-• The dataset contains about 12k+ labelled images including the validation images.
+• The dataset contains more than 12k labelled images for training and validation.
 
-• Each image has only one human activity category and are saved in separate folders of the labelled classes
+• The dataset contains 5400 images for testing.
 
+• Each image has only one human activity class.
 
-## Input file
-• Train - contains all the images that are to be used for training your model. In this folder you will find 15 folders namely - 'calling', ’clapping’, ’cycling’, ’dancing’, ‘drinking’, ‘eating’, ‘fighting’, ‘hugging’, ‘laughing’, ‘listening_to_music’, ‘running’, ‘sitting’, ‘sleeping’, texting’, ‘using_laptop’ which contain the images of the respective human activities.
-
-• Test - contains 5400 images of Human Activities. For these images you are required to make predictions as the respective class names -'calling', ’clapping’, ’cycling’, ’dancing’, ‘drinking’, ‘eating’, ‘fighting’, ‘hugging’, ‘laughing’, ‘listening_to_music’, ‘running’, ‘sitting’, ‘sleeping’, texting’, ‘using_laptop’.
-
-• Testing_set.csv - this is the order of the predictions for each image that is to be submitted on the platform.
-
-• Training_set.csv - this file contains the mapping between image name and label
 
 ## Running the Project on Colab
 Before running the code, it is advisable to change the Runtime typology from CPU to T4 GPU in order to speed up training phase of CNN.
 
-When running the project on Google Colab, ensure you have a folder containing the files descripted above.
-The project upload a folder containing the four files into the Colab environment at the beginning of the notebook, in the code, it is called 'human-action-recognition-har-dataset'. This data is essential for train and test the model.
+The project upload a folder containing the four files into the Colab environment at the beginning of the notebook, it is called 'human-action-recognition-har-dataset'. These files are essential for train and test the model.
 
-If enabled the Google Drive connection it is possible to save the model to on Drive, alternatively, if present, it is possible to load the pretrained model from Drive.
+It is possible to save the model on Google Drive during the execution.
 
 ## Requirements
 
@@ -54,6 +46,6 @@ Google Drive account;
 
 • Keras CNN model list: https://keras.io/api/applications/
 
-• How to save model weights, load model Weights and compile it: https://machinelearningmastery.com/save-load-keras-deep-learning-models/
+• How to save model weights, load model Weights: https://machinelearningmastery.com/save-load-keras-deep-learning-models/
 
-• Adam optimizer parameter: https://keras.io/api/optimizers/adam/
+• Adam optimizer parameter: https://keras.io/api/optimizers/adam/  
